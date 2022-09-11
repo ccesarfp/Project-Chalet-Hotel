@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-    background: #ede9cc;
+    background: #ede9cc url(../img/bg-container.png) top center repeat-y;
     margin: auto;
     min-width: 740px;
     max-width: 1180px;
@@ -23,6 +23,8 @@ body {
     min-width: 250px;
     position: relative;
 }
+
+/*Configuração do Topo*/
 
 #area-logo {
     background: url(../img/topo-imagem-principal2.png) no-repeat;
@@ -87,6 +89,8 @@ a.reserva {
     float: right;
 }
 
+/*Configuração do Menu*/
+
 ul {
     margin: 0;
     padding: 0;
@@ -117,4 +121,28 @@ ul#navegacao a {
     float: right;
     width: 226px;
     height: 164px;
+}
+
+/*Área de Conteúdo*/
+#area-principal {
+    float: left;
+    width: 50%;
+    background: url(../img/bg-area-principal.png) top left repeat-x;
+    padding: 15px 0;
+}
+
+#area-lateral {
+    background: url(../img/bg-area-lateral.png) top left repeat-x;
+    float: right;
+    width: 50%;
+    padding: 20px 0;
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 90%;
+}
+
+#rodape {
+    clear: both;
 }
